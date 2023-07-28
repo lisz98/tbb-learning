@@ -1,32 +1,54 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# C++ Build Artifacts
+**/build/
+**/out/
+**/Debug/
+**/Release/
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.dylib
 
-# Precompiled Headers
+# CMake Build Directory
+**/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+cmake_install.cmake.in
+CMakeLists.txt.user
+CTestTestfile.cmake.in
+
+# Qt Build Directory
+**/moc_*.cpp
+**/qrc_*.cpp
+**/ui_*.h
+*.pro.user
+
+# Visual Studio Code Settings
+.vscode/
+
+# Compiled Headers
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Other IDE/Editor Files
+.DS_Store
+*.user
+*.suo
+*.sln.docstates
+*.sdf
+*.opensdf
+*.cscope
+*.cbp
+*.workspace
+.project
+.settings/
+.cproject
+.pyc
+.pyo
+.idea/
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# vim
+**/.cache/
